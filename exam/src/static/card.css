@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  
+  .container .layout_bar {
+    float: right;
+  }
+  
+  .container .layout_bar button {
+    background-color: #fff;
+    width: 60px;
+    line-height: 25px;
+    color: rgba(3, 3, 3, 0.5);
+    border: 1px solid rgba(3, 3, 3, 0.2);
+  }
+  
+  .container .layout_bar .current {
+    border: 1px solid #6796db;
+  }
+  
+  .container .progress_state1 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #4569a0;
+    margin-right: 3px;
+    margin-bottom: 2px;
+  }
+  
+  .container .progress_state2 {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: red;
+  }
+  
+  .container .card_bin {
+    clear: both;
+  }
+  
+  .container .card_bin .card_order {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .container .card_bin .card_order li:hover {
+    border: 1px solid #6796db;
+    box-shadow: 1px 1px 1px #6796db;
+  }
+  
+  .container .card_bin .card_order li {
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(3, 3, 3, 0.2);
+    float: left;
+    border: 1px solid rgba(3, 3, 3, 0.2);
+    width: 30%;
+    margin: 1% 0 1% 3.15%;
+    min-width: 300px;
+    list-style-type: none;
+  }
+  
+  .container .card_bin .card_order li img {
+    float: left;
+    width: 104px;
+    height: 104px;
+  }
+  
+  .container .card_bin .card_order li .card_center {
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+  }
+  
+  .container .card_bin .card_order li .card_center h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .container .card_bin .card_order li .card_center h5 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 200;
+  }
+  
+  .container .card_bin .card_order li .card_center p {
+    margin-bottom: 10px;
+  }
+  
+  .container .card_bin .card_order li .card_center p span {
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 5px;
+  }
+  
+  .container .card_bin .card_order li .star_img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .container .card_bin .card_order li .item_progress {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+  }
+  
+  .container .card_bin .item_form {
+    padding-top: 20px;
+  }
+  
+  .container .card_bin .item_form table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid rgba(3, 3, 3, 0.2);
+  }
+  
+  .container .card_bin .item_form table thead tr {
+    width: 100%;
+  }
+  
+  .container .card_bin .item_form table thead tr td {
+    text-indent: 5px;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  .container .card_bin .item_form table tbody tr:nth-child(odd) {
+    background: rgba(1, 1, 1, 0.1);
+  }
+  
+  .container .card_bin .item_form table tbody tr {
+    text-indent: 5px;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  .container .card_bin .item_form table tbody tr img {
+    width: 10px;
+    height: 10px;
+    top: 5px;
+  }
+  
+  .container .card_bin .item_form table tbody tr .product_Category {
+    padding-left: 12px;
+  }
+  
